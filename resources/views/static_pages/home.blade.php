@@ -2,5 +2,16 @@
 @section('title', 'Home')
 
 @section('content')
-<h1>Home Page</h1>
+    <div class="jumbotron">
+        <h1>Hello Laravel</h1>
+        <p class="lead">
+            你现在所看到的是 Laravel 教程
+        </p>
+        <p>
+            一切，将从这里开始。
+        </p>
+        <p>
+            <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
+        </p>
+    </div>
 @stop
